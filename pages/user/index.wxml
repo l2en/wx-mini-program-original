@@ -8,7 +8,7 @@
     </view>
   </view>
     <view class="userinfo-item">
-      <view>
+      <view class="userinfo-item-name-wrapper">
         <image style="width: 20px;height: 20px;" src='https://static.easyicon.net/preview/124/1241541.gif'/>
         <text class="userinfo-item-name">网页版</text>
       </view>
