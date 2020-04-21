@@ -1,1 +1,58 @@
-/* pages/profile/index.wxss */
+/* pages/usere/index.wxss */
+.user-wrapper{
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.user-info{
+  border: 2rpx rgb(156, 156, 156) solid;
+  border-radius: 8rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx;
+  margin-bottom: 120rpx;
+}
+.user-avantar{
+  width: 140rpx;
+  height: 140rpx;
+  overflow: hidden;
+  border: 2rpx rgb(206, 205, 205) solid;
+  border-radius: 6rpx;
+}
+.user-name{
+  display: inline-flex;
+  vertical-align: top;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40rpx 0;
+  box-sizing: border-box;
+  margin-left: 20rpx;
+}
+.rea{
+  color: rgb(113, 219, 104);
+  font-size: 20rpx;
+}
+.userinfo-item{
+  border: 0;
+  border-bottom: 2rpx rgb(185, 185, 185) solid;
+  padding: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 28rpx;
+  margin-bottom: 28rpx;
+}
+.userinfo-item-name{
+  margin-left: 20rpx
+}
+.userinfo-item-name-wrapper{
+  align-items: center;
+  display: flex;
+}
+.userinfo-item-des{
+  color: rgb(216, 216, 216);
+}
+.userinfo-item-right-img{
+  width: 8px;
+  height: 12px;
+  margin-left: 30px;
+}

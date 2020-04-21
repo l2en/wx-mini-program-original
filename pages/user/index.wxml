@@ -1,2 +1,57 @@
-<!--pages/profile/index.wxml-->
-<text>我的</text>
+<!--pages/usere/index.wxml-->
+<view class="user-wrapper">
+  <view class="user-info">
+    <image class="user-avantar" src='http://img5.imgtn.bdimg.com/it/u=2471723103,4261647594&fm=26&gp=0.jpg'/>
+    <view class="user-name">
+      <text>可达鸭</text>
+      <text class='rea'>实名认证>></text>
+    </view>
+  </view>
+    <view class="userinfo-item">
+      <view>
+        <image style="width: 20px;height: 20px;" src='https://static.easyicon.net/preview/124/1241541.gif'/>
+        <text class="userinfo-item-name">网页版</text>
+      </view>
+      <view class="userinfo-item-des">
+      <text>www.knz.com</text>
+        <image  class="userinfo-item-right-img" src="../assets/rightarrow.png"/>
+      </view>
+    </view>
+    <view class="userinfo-item">
+      <view class="userinfo-item-name-wrapper">
+        <image style="width: 20px;height: 20px;" src='https://static.easyicon.net/preview/124/1241541.gif'/>
+        <text class="userinfo-item-name">我的资料</text>
+      </view>
+      <view class="userinfo-item-des">
+      <text>资质实名认证</text>
+        <image  class="userinfo-item-right-img" src="../assets/rightarrow.png"/>
+      </view>
+    </view>
+    <view class="userinfo-item">
+      <view class="userinfo-item-name-wrapper">
+        <image style="width: 20px;height: 20px;" src='https://static.easyicon.net/preview/124/1241541.gif'/>
+        <text class="userinfo-item-name">我的医工</text>
+      </view>
+      <view class="userinfo-item-des">
+        <image  class="userinfo-item-right-img" src="../assets/rightarrow.png"/>
+      </view>
+    </view>
+    <view class="userinfo-item">
+      <view class="userinfo-item-name-wrapper">
+        <image style="width: 20px;height: 20px;" src='https://static.easyicon.net/preview/124/1241541.gif'/>
+        <text class="userinfo-item-name">我的客户</text>
+      </view>
+      <view class="userinfo-item-des">
+        <image  class="userinfo-item-right-img" src="../assets/rightarrow.png"/>
+      </view>
+    </view>
+    <view class="userinfo-item">
+      <view class="userinfo-item-name-wrapper">
+        <image style="width: 20px;height: 20px;" src='https://static.easyicon.net/preview/124/1241541.gif'/>
+        <text class="userinfo-item-name">关注公众号</text>
+      </view>
+      <view class="userinfo-item-des">
+        <image  class="userinfo-item-right-img" src="../assets/rightarrow.png"/>
+      </view>
+    </view>
+</view>
